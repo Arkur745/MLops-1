@@ -1,0 +1,22 @@
+{
+  "name": "mlops-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkur745/MLops-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arkur745/MLops-1/issues"
+  },
+  "homepage": "https://github.com/Arkur745/MLops-1#readme"
+}
