@@ -2,11 +2,14 @@
   "name": "mlops-1",
   "version": "1.0.0",
   "description": "",
-
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -15,7 +18,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-    "type": "module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Arkur745/MLops-1/issues"
   },
@@ -23,5 +26,12 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.3"
   }
 }
